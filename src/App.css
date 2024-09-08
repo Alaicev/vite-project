@@ -1,0 +1,91 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+  background-color: rgb(236, 242, 246);
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.wrapper {
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.links{
+  display: flex;
+  width: 350px;
+  height: 70px;
+  justify-content: center;
+  align-items:center;
+  text-decoration: none;
+  font-size: 35px;
+  border-radius: 5px;
+  color: black;
+  background-color: rgb(202, 202, 202);
+  font-style: italic;
+}
+
+.buttons {
+  display: flex;
+  min-width: 200px;
+  padding: 5px 10px;
+  height: 50px;
+  justify-content: center;
+  align-items:center;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 5px;
+  color: black;
+  background-color: rgb(202, 202, 202);
+  cursor: pointer;
+}
+
+table{
+  border-collapse: collapse
+}
+
+th, tr {
+  border: 1px solid;
+}
+
+input{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.min_button {
+  border: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(202, 202, 202);
+}
+
+.del-but-con {
+  position: relative;
+}
+
+.del_but {
+  position: absolute;
+  top: -10px;
+  right: -25px
+}
+
+.calendar__container {
+  width: 20%
+}

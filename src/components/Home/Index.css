@@ -1,0 +1,26 @@
+.index__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.left__bord{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+  padding: 50px 0;
+}
+
+
+.bottom__bord{
+  display: flex;
+  align-items: end;
+}
+
+.bottom__bord-bottoms {
+  display: flex;
+  gap: 40px;
+  padding: 50px 0;
+}

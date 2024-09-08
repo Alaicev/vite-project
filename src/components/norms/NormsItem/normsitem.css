@@ -1,0 +1,84 @@
+.norm__name-item {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: none;
+  padding: 10px;
+}
+
+.norm__item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid;
+}
+
+table{
+  border-collapse: collapse
+}
+
+.norms__button-container{
+  display: flex;
+  gap: 20px;
+}
+
+.norm__table {
+  width: 100%;
+  text-align: center;
+}
+
+.norm__table-name{
+  width: 20%;
+}
+.norm__table-item,
+.norm__table-norm,
+.norm__table-discharge{
+width: 8%;
+}
+
+.norm__table-pl,
+.norm__table-1,
+.norm__table-2,
+.norm__table-3 {
+  width: 6.5%;
+}
+
+th, tr, td {
+  border: 1px solid;
+  padding: 5px;
+}
+
+.col1{
+  width: 45.25%;
+}
+
+.col2, 
+.col3, 
+.col4 {
+  width: 8.76%;
+}
+.col5 {
+  width: 2%;
+}
+
+.norm__name-item {
+  position: relative;
+}
+
+.button__container-norm {
+  position: absolute;
+  right: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.button__container-norm button {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}

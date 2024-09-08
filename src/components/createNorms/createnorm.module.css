@@ -1,0 +1,19 @@
+
+.buttons {
+  float: inline-end;
+  margin:40px 0 ;
+}
+
+.add_button{
+  display: block;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 50%;
+  border: none;
+}
+
+.add_button:active {
+  opacity: 0.5;
+}
+

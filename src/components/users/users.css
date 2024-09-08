@@ -1,0 +1,24 @@
+.userItem {
+  background-color: white;
+  border: 1px solid;
+  display: grid;
+  grid-template-columns: 50px 1fr 100px 100px 100px;
+}
+
+.str {
+  border: 1px solid;
+  padding: 10px;
+}
+.user_number,
+.user_rename{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user_button {
+  background-color: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
