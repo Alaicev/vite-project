@@ -24,7 +24,7 @@ export const AppContainer = () => {
 
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="vite-project">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/lists" element={<UchetList/>} />
