@@ -18,7 +18,14 @@ function CreateNorm() {
 
   const onSubmit = (data) => {
     const resData = {
-      ...data, 
+      name: data.name,
+      items: data.items,
+      normname: data.normname,
+      discharge: data.discharge,
+      payment: data.payment,
+      surcharge1: data.surcharge1,
+      surcharge2: data.surcharge2,
+      surcharge3: data.surcharge3,
       norms_id: currentId.id
     }
     dispatch(CreatehNormsItems(resData))
@@ -98,28 +105,28 @@ function CreateNorm() {
             }/>
             </td>
             <td>
-            <input type="number" {
+            <input step={0.01} type="number" {
               ...register("payment", {
                 register: "-----"
               })
             }/>
             </td>
             <td>
-            <input  type="number"{
+            <input step={0.01} type="number"{
               ...register("surcharge1", {
                 register: "-----"
               })
             }/>
             </td>
             <td>
-            <input {
+            <input  step={0.01} type="number" {
               ...register("surcharge2", {
                 register: "-----"
               })
             }/>
             </td>
             <td>
-            <input {
+            <input step={0.01} type="number" {
               ...register("surcharge3", {
                 register: "-----"
               })

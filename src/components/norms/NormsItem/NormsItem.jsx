@@ -42,10 +42,9 @@ export const NormTable = (props) => {
           {Math.round(props.data.surcharge2 * props.data.normname * 100) / 100}
         </td>
         <td className="norm__table-3">
-          {!!props.data.surcharge3
-            ? "-"
-            : Math.round(props.data.surcharge3 * props.data.normname * 100) /
-              100}
+          {
+           (Math.round(props.data.surcharge3 * props.data.normname * 100) /
+              100)}
         </td>
       </tr>
       <tr>
@@ -53,10 +52,8 @@ export const NormTable = (props) => {
         <td>{props.data.surcharge1}</td>
         <td>{props.data.surcharge2}</td>
         <td className="del-but-con">  
-          {!!props.data.surcharge3
-            ? "-"
-            : Math.round(props.data.surcharge3 * props.data.normname * 100) /
-              100}
+          {(Math.round(props.data.surcharge3 * props.data.normname * 100) /
+              100)}
       <button id={props.data.id} onClick={delNorm} className="min_button del_but">X</button>
 
         </td>
