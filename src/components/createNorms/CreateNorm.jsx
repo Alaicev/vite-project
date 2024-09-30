@@ -22,12 +22,14 @@ function CreateNorm() {
       items: data.items,
       normname: data.normname,
       discharge: data.discharge,
-      payment: data.payment,
-      surcharge1: data.surcharge1,
-      surcharge2: data.surcharge2,
-      surcharge3: data.surcharge3,
+      payment: data.payment || "0",
+      surcharge1: data.surcharge1 || "0",
+      surcharge2: data.surcharge2 || "0",
+      surcharge3: data.surcharge3 || "0",
       norms_id: currentId.id
     }
+
+    console.log(resData)
     dispatch(CreatehNormsItems(resData))
     return <Navigate to="/"/>
   }
