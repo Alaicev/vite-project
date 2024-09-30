@@ -30,12 +30,13 @@ export const UchetListItems = (props) => {
   };
 
   const getFile = async (d) => {
+    const num = prompt("Укажите номер квартала")
     if(filteredData[0] == undefined) {
       alert("Файл пуст")
       return
     }
     try {
-      const nameUser = { name: filteredData };
+      const nameUser = { name: filteredData, num: num };
 
       console.log(nameUser);
 
